@@ -31,6 +31,10 @@ body {
 
 
 /* ========== SIDEBAR ========== */
+.top-sidebar{
+  height: calc(100% - 110px);
+  padding: 1rem;
+}
 
 .sidebar {
   width: 230px;
@@ -38,6 +42,8 @@ body {
   padding: 1rem;
   z-index: 1;
 }
+
+
 
 .sidebar .logo img {
   height: 30px;
@@ -109,6 +115,8 @@ body {
   margin-top: auto;
   color: #b3b3b3;
   padding: 10px 20px;
+  height: 110px;
+  padding: 1rem;
 }
 
 .install-app {
